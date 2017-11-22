@@ -24,7 +24,7 @@ class AlbumList extends Component {
     console.log(this.state);
 
     return (
-      <ScrollView>
+      <ScrollView style={{ flex: 1, paddingBottom: 20, height: '100%'}}>
         {this.renderAlbums()}
       </ScrollView>
     );
